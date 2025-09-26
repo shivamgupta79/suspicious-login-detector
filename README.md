@@ -1,4 +1,4 @@
-##🔐 Suspicious Login Detector
+##🔐 Suspicious Login Detector ##
 
 A real-time intelligent system to detect suspicious login activities using behavioral patterns, geolocation analysis, and risk scoring.
 
