@@ -1,81 +1,134 @@
 🔐 Suspicious Login Detector
-A real-time intelligent system to detect suspicious login activities using behavioral patterns, geolocation analysis, and risk scoring. Designed for cybersecurity teams, IT admins, and developers who want to proactively monitor and respond to anomalous login behavior.
+
+A real-time intelligent system to detect suspicious login activities using behavioral patterns, geolocation analysis, and risk scoring.
+
+Designed for cybersecurity teams, IT admins, and developers who want to proactively monitor and respond to anomalous login behavior.
 
 📌 Project Overview
+
 This project aims to identify and alert on potentially malicious login attempts by analyzing:
 
-Login frequency
+📈 Login frequency
 
-Geolocation inconsistencies
+🌍 Geolocation inconsistencies
 
-Device fingerprint mismatches
+💻 Device fingerprint mismatches
 
-Time-based anomalies (e.g., late-night logins)
+🕒 Time-based anomalies (e.g., late-night logins)
 
-It provides a dynamic dashboard for real-time monitoring and detailed alert views for investigation.
+It includes:
+
+✅ Real-time dynamic dashboard for monitoring
+
+✅ Detailed alert views for investigation
 
 ⚙️ How It Works
+
 The system performs the following tasks:
 
-Live Alerts Feed: Displays suspicious login attempts as they occur, with risk levels (High, Medium, Low).
+🔴 Live Alerts Feed
+Displays suspicious login attempts as they occur, with risk levels: High, Medium, Low.
 
-Dashboard Cards: Summarizes key metrics like total logins, number of suspicious events, and accounts at risk.
+📊 Dashboard Cards
+Summarizes key metrics like:
 
-Detailed Alert View: Shows IP address, geolocation, device fingerprint, and risk analysis for each flagged login.
+Total login attempts
 
-Risk Scoring Engine: Assigns a risk level based on multiple factors including location deviation, login time, and device changes.
+Number of suspicious events
+
+Accounts at risk
+
+🕵️ Detailed Alert View
+Shows:
+
+IP address
+
+Geolocation
+
+Device fingerprint
+
+Timestamp
+
+Risk analysis for each flagged login
+
+📉 Risk Scoring Engine
+Assigns a risk level based on:
+
+Location deviation
+
+Login time anomaly
+
+Device change/fingerprint mismatch
 
 ✅ Benefits
-Real-Time Detection: Immediate alerts for suspicious activity.
 
-Geolocation Awareness: Flags logins from unexpected regions.
+⚡ Real-Time Detection: Immediate alerts for suspicious activity
 
-Behavioral Analysis: Detects unusual patterns like rapid logins or off-hours access.
+🌐 Geolocation Awareness: Flags logins from unexpected regions
 
-Scalable Design: Easily integrates with existing authentication systems.
+🧠 Behavioral Analysis: Detects unusual patterns (e.g., rapid login bursts)
 
-User-Friendly Dashboard: Visual insights for quick decision-making.
+🏗️ Scalable Design: Easily integrates with existing authentication systems
+
+📈 User-Friendly Dashboard: Visual insights for fast decision-making
 
 🥇 Why This Project Stands Out
-Compared to other login detection tools, this project offers:
-
 Feature	This Project	Others
 Real-time dashboard	✅	❌
 Risk scoring engine	✅	❌
 Device fingerprinting	✅	Limited
 Alert detail view	✅	❌
 Open-source & customizable	✅	❌
-Customizable: Built with modular components for easy extension.
+🔧 Customizable
 
-Transparent: Fully open-source with clear logic and data flow.
+Built with modular components for easy extension
 
-Focused on Actionability: Alerts are designed to be actionable, not just informative.
+🔍 Transparent
+
+Fully open-source with clear logic and data flow
+
+🚨 Focused on Actionability
+
+Alerts are designed to be actionable, not just informative
 
 📖 User Manual
 🛠️ Setup
-bash
 git clone https://github.com/shivamgupta79/suspicious-login-detector.git
 cd suspicious-login-detector
 npm install
 npm start
+
 📊 Dashboard Overview
-Live Alerts: View new suspicious logins with risk levels.
 
-Metrics Cards: See total logins, flagged events, and active risks.
+Live Alerts: View new suspicious logins with risk levels
 
-Alert Details: Click any alert to view IP, location, device, and timestamp.
+Metrics Cards: See total logins, flagged events, and accounts at risk
+
+Alert Details: Click any alert to view:
+
+IP address
+
+Geolocation
+
+Device info
+
+Timestamp
 
 ⚠️ Responding to Alerts
-Investigate high-risk logins immediately.
 
-Use geolocation and device info to verify legitimacy.
+Investigate high-risk logins immediately
 
-Optionally integrate with email or SMS alerting systems.
+Use geolocation and device fingerprint to verify legitimacy
+
+Integrate with email or SMS alerting systems (optional)
 
 🧪 Testing
-Simulate logins from different IPs and times.
 
-Observe dashboard updates and alert generation.
+Simulate logins from different IPs, times, and devices
+
+Observe dashboard updates and real-time alert generation
 
 📬 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+Pull requests are welcome! For major changes, please open an issue
+ first to discuss your proposed changes.
