@@ -52,29 +52,30 @@ Transparent: Fully open-source with clear logic and data flow.
 Focused on Actionability: Alerts are designed to be actionable, not just informative.
 
 📖 User Manual
-1. 🛠️ Setup
+🛠️ Setup
 bash
 git clone https://github.com/shivamgupta79/suspicious-login-detector.git
 cd suspicious-login-detector
 npm install
 npm start
-2. 📊 Dashboard Overview
+📊 Dashboard Overview
 Live Alerts: View new suspicious logins with risk levels.
 
 Metrics Cards: See total logins, flagged events, and active risks.
 
 Alert Details: Click any alert to view IP, location, device, and timestamp.
 
-3. ⚠️ Responding to Alerts
+⚠️ Responding to Alerts
 Investigate high-risk logins immediately.
 
 Use geolocation and device info to verify legitimacy.
 
 Optionally integrate with email or SMS alerting systems.
 
-4. 🧪 Testing
+🧪 Testing
 Simulate logins from different IPs and times.
 
 Observe dashboard updates and alert generation.
 
 📬 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
