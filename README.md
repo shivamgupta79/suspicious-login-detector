@@ -1,20 +1,20 @@
-🔐 Suspicious Login Detector
+##🔐 Suspicious Login Detector
 
 A real-time intelligent system to detect suspicious login activities using behavioral patterns, geolocation analysis, and risk scoring.
 
 Designed for cybersecurity teams, IT admins, and developers who want to proactively monitor and respond to anomalous login behavior.
 
-📌 Project Overview
+##📌 Project Overview
 
 This project aims to identify and alert on potentially malicious login attempts by analyzing:
 
-📈 Login frequency
+#📈 Login frequency
 
-🌍 Geolocation inconsistencies
+#🌍 Geolocation inconsistencies
 
-💻 Device fingerprint mismatches
+#💻 Device fingerprint mismatches
 
-🕒 Time-based anomalies (e.g., late-night logins)
+#🕒 Time-based anomalies (e.g., late-night logins)
 
 It includes:
 
@@ -26,7 +26,7 @@ It includes:
 
 The system performs the following tasks:
 
-🔴 Live Alerts Feed
+##🔴 Live Alerts Feed
 Displays suspicious login attempts as they occur, with risk levels: High, Medium, Low.
 
 📊 Dashboard Cards
